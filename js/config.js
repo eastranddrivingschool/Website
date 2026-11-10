@@ -6,5 +6,5 @@
 window.EASTRAND_CONFIG = {
   phoneDisplay: "084 865 3300",
   phoneIntl:    "27848653300",
-  email:        "CrossRoadDriving@gmail.com"
+  email:        "eastranddrivingschool@gmail.com"
 };

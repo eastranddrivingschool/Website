@@ -71,13 +71,13 @@
         var subject = "Driving School Enquiry: " + pkg + " - " + fullName;
         status.style.color = "#146C2E";
         status.textContent = "Opening your email app with your details pre-filled\u2026";
-        window.location.href = "mailto:" + (cfg.email || "CrossRoadDriving@gmail.com") +
+        window.location.href = "mailto:" + (cfg.email || "eastranddrivingschool@gmail.com") +
           "?subject=" + encodeURIComponent(subject) +
           "&body=" + encodeURIComponent(emailLines);
       } else {
         if (isPlaceholderPhone) {
           status.style.color = "#B3261E";
-          status.textContent = "Phone number is being updated. Please use 'Send by email' or email CrossRoadDriving@gmail.com directly.";
+          status.textContent = "Phone number is being updated. Please use 'Send by email' or email eastranddrivingschool@gmail.com directly.";
           return;
         }
         var waLines = [

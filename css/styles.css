@@ -28,6 +28,8 @@ h3{font-size:1.35rem}
 p{margin:0 0 1em;color:#334155}
 .lead{font-size:1.18rem;max-width:60ch;color:#334155}
 .muted{color:var(--muted)}
+.split,.contact-layout{grid-template-columns:1fr;gap:24px}
+.contact-layout > .form{order:-1}
 
 /* Buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;font:600 1rem/1 var(--font-body);padding:14px 24px;border-radius:6px;border:2px solid transparent;text-decoration:none;cursor:pointer;transition:background-color .15s,color .15s,border-color .15s}
